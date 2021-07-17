@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(247, 146, 30);
+    height: 100vh;
+}
+
+header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+img {
+    margin-left: 50px;
+    width: 130px;
+    height: 70px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+}
+
+button {
+    text-decoration: none;
+    padding: 30px;
+    color: grey;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: rgb(247, 146, 30);
+    color: white;
+}
+
+.main-container, .new-container {
+    width: 1000px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    max-height: 500px;
+    text-align: center;
+}
+
+.client-container, .prod-container, .edition-container {
+    width: 700px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    max-height: 500px;
+}
+
+.buttdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ClientDiv input {
+    display : block;
+    text-align: center;
+    margin: auto;
+    margin-top : 20px;
+    font-size: 30px;
+}
+
+.ProdDiv label{
+    display : inline-block;
+    margin-left: 17%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.ProdDiv select {
+    border: none;
+    appearance: none; 
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    padding: 0 1em 0 0;
+    margin: 0;
+    margin-left: 10px;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+    background-color: rgb(247, 146, 30);
+    padding: 5px;
+    outline: none;
+}
+
+.ProdDiv input {
+    display : block;
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    margin-top : 30px;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+.info-client {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.lool {
+    background-color: rgb(247, 146, 30);
+    color: white;
+    border-radius: 8px;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
